@@ -29,3 +29,10 @@ section#celular {
     background: url('../images/frame-iphone.png') no-repeat fixed;
 }
 
+iframe#home {
+    position: relative;
+    height: 47rem;
+    width: 26.7rem;
+    top: 8.1rem;
+    left: 2.2rem;
+}
