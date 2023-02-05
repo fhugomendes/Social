@@ -36,3 +36,28 @@ iframe#home {
     top: 8.1rem;
     left: 2.2rem;
 }
+
+section#redes-sociais {
+    display: flex;
+    flex-direction: column;
+}
+
+section#redes-sociais a {
+    padding: 2rem 1rem .1rem;
+}
+
+section#redes-sociais img {
+    display: flex;
+    justify-content: space-around;
+    width: 6rem;
+    border-radius: 50%;
+    border: 0.3rem solid white;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.479);
+}
+
+section#redes-sociais img:hover {
+    border: 0.3rem solid gray;
+    transform: translate(-4%, -4%);
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.479);
+    transition: 0.1s;
+}
